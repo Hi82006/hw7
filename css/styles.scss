@@ -369,12 +369,13 @@ nav{
     border-radius: 15px;
     position: absolute;
     bottom: 374px;
-    left: 261px;
+    left: 209px;
   }
   .start{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 74px;
     color: rgba(0, 0, 0, 1);
     & h2{
         font-family: "Inter";
