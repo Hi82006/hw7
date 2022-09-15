@@ -258,7 +258,7 @@ nav{
         display: grid;
         justify-content: center;
         grid-template-columns: auto auto auto;
-        grid-template-rows: 292px 172.78px;
+        grid-template-rows: 292px 173px 292px;
         gap: 30px;
         margin-top: 53px;
         &>div:nth-child(1){
@@ -283,13 +283,11 @@ nav{
         &>div:nth-child(5){
             grid-column-start: 3;
             grid-column-end: 4;
-            grid-row-start: -3;
-            grid-row-end: -1; 
+            grid-row-start: -4;
+            grid-row-end: -2; 
         }
         &>div:nth-child(6){
             grid-column-start: 3;
-            grid-column-end: 4;
-            grid-row-start: -1;
         }
     }
 }
