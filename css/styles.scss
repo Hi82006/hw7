@@ -362,14 +362,17 @@ nav{
     clear: both;
     display: table;
   }
+  .rl{
+    position: relative;
+  }
   .start-bg{
     background:rgba(255, 183, 66, 1);
     max-width: 1116px;
     padding: 57px 94px;
     border-radius: 15px;
     position: absolute;
-    bottom: 374px;
-    left: 209px;
+    bottom: 61px;
+    left: 167px;
   }
   .start{
     display: flex;
@@ -408,7 +411,6 @@ nav{
   .foot-bg{
     background-color: rgba(28, 28, 28, 1);
     padding-top: 144px;
-    position: relative;
     margin-top: 253px;
   }
   .foot{
